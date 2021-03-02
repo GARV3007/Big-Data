@@ -1,0 +1,43 @@
+Broadly we can categorize data into two types. Structured and Unstructured data. The majority of the data in the finance or relevant to finance is unstructured (close to 90% of overall data). Financial firms hold a vast array of unstructured data. This data is largely under-analyzed and rarely put to use. Structured data are mostly market data, which will be in the form of rows and columns. The most interesting aspect of big data is unstructured data, which contains information like trading ideas comments, news and research reports, emails that contain conversations with clients and potential investors, reports published by banks, and other digital footprints. These are extremely challenging to analyze.
+
+ 
+
+Applications of Big-data analytics in Finance:
+
+ 
+
+Quantitative and Algorithmic Trading
+In current application we are seeing big-data analytics is mostly being used quantitative and algorithmic trading firms. This covers almost 70% of big-data application in Finance sector. 
+Used to generate trading signals.
+Create Circuit breakers on bad news.
+Add/remote liquidity or pull quotes on market moving events.
+Discretionary Applications
+Discovery through visualization using big-data analytics is trending to get the insights.
+Research and forcast global pricing of instruments.
+Filter out noise in unstructured data.
+Derive simple signals and indicators.
+Market Surveillance
+Enhance surveillance tools.
+Optimizing ongoing investigations.
+Reduce false positive.
+Risk management
+It is one of the most intertesing trend market is seeing today.
+Manage headline or event risk.
+Forecast volatility and liquidity.
+Improve "Risk-on, Risk-off" strategy.
+ 
+
+      Stakeholders of a company can understand business specificities and interconnections when data is easily understandable. For instance, an industrial player carefully analyzes its order to pay information, which allows the firm to reduce receivables delays and therefore optimize its working capital. A pharmaceutical firm can build a dashboard using a data visualization tool available on a phone, tablet, or computer. Another example, if a large retail company wanted to access the effectiveness of recent trade promotions per product category. Classifying promotions by characteristics in profitability level will help build an effective campaign tailored to the season and product type. 
+      Big-data and analytics are a real chance for finance to bring values to business to better prevision and business understandings. Many companies are moving towards a data-driven finance function by combining their expertise with IT and analytics.
+
+ 
+
+References:
+
+https://www.talend.com/resources/big-data-finance/
+
+https://www.finextra.com/blogposting/17847/big-data-in-the-financial-services-industry---from-data-to-insights
+
+https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00291-z
+
+https://www.precisely.com/blog/big-data/4-real-world-examples-financial-institutions-big-data-analytics

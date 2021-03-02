@@ -1,0 +1,25 @@
+Recently, graph analytics is named as one fo the best data analytics trand by Gartner Research. Over next 2-3 years it will be used increasesingly to explore existing and recent dicovered relationships with more efficiency. It works well with complex relationships. Its use case involves creating graph format for data point relationships and coding the queries more efficiently. It can also provide results in user friendly format. Its implementation is changing the organizations point of view for the stored data. The output reationship it provides is more of fluid nature, rather than in row/column format. This ability of graph database positions it well above other forms of databases. The most common graph database use cases includes:
+
+Finding shortest distance between two points using GPS systems and maps.
+Findings connections between users on social networks.
+Location and usage patterns based Fraud Detection.
+Findings most relevant data relationships between two points.
+
+To explain more on the 4th use case of finding most relevant relationship, we can relate to finding best driving route between two locations:
+
+Prepare use case to determing all the possible routes between two locations.
+Feed the graph database with information to define route, start and end points, road conditions, modes of transportation etc.
+Create relationship link between all the elements to evaluvate relationship between them.
+Assign values to each relationship.
+Allocate the highest points to the route which can get driver reach the destination fastest. That would be the preffered route. 
+ 
+
+Graph database can find relationship between any number of data points in any order. It can find the interrelationships at all data level of hierarchy. Thay are heighly flexible and updatable. The main drawback of graph database is that it can not process thousands of transaction in less than a second like rational databases. Also, it is not suitable for business processing on local-serves. 
+
+ 
+
+References:
+
+https://www.zdnet.com/article/the-rise-and-rise-of-graph-databases/
+
+https://neo4j.com/use-cases/life-sciences/

@@ -1,0 +1,40 @@
+Credit card fraud is growing along with the development of technology in today’s world. Hundreds of researches have been made in the past for more than four decades and still, the problem is critical, affecting large financial and banking companies. In this post, I am focusing on the workflow of an advanced realtime credit card fraud detection framework. According to the FBI, credit card fraud is “the unauthorized use of a credit or debit card, or similar payment tool to fraudulently obtain money or property.” All players involved in the card-based payment process can potentially fall victim to scammers, including:
+cardholders,
+online merchants,
+payment gateway providers,
+payment processing companies,
+credit card payment systems,
+card issuers (issuing banks), and
+acquirers (acquiring banks).
+ 
+
+ 
+
+ 
+Supervised learning means that a model learns from previous examples and is trained on labeled data. In other words, the dataset has tags that tell the model which patterns are related to fraud and which represent normal behavior.
+
+Unsupervised learning is also called anomaly detection as it automatically captures unusual patterns. In this case, training datasets come without any labels or instructions. This approach lags behind supervised learning in terms of accuracy. But it is unrivaled when a business needs to find hidden fraud patterns and useful insights.
+
+ 
+
+Often, two signs come hand in hand, calling for technical improvements. Once the need for machine learning is recognized, the following steps should be taken.
+
+1. A data science team conducts an audit on data accumulated by a financial structure to assess how it fits for given tasks. The team also looks into current anti-fraud processes and evaluates the feasibility of an ML solution at the given stage.
+
+2. If data is insufficient — for example, banks collect only basic information on transactions — data scientists inform what additional metrics must be gathered.
+
+3. First, unsupervised learning techniques may be applied to analyze available data and find patterns of fraudulent behavior.
+
+4. When the atypical patterns are identified, supervised machine learning goes in to build a model and fine-tune it on larger datasets.
+
+5. Ready-to-use algorithms can be wrapped in a web-service or a program module. As such, they are delivered to software developers to be integrated into the working e-commerce platform, payment processing software, or other system used by a merchant or service provider. 
+
+ 
+
+References:
+
+https://www.altexsoft.com/blog/credit-card-fraud-detection/
+
+https://scholarship.libraries.rutgers.edu/discovery/delivery?vid=01RUT_INST:ResearchRepository&repId=12643404360004646#13643523110004646
+
+https://spd.group/machine-learning/e-commerce-fraud-detection/

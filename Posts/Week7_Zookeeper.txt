@@ -1,0 +1,28 @@
+What is ZooKeeper?
+
+Zookeeper is a top-level software developed by Apache that acts as a centralized service and is used to maintain naming and configuration data and to provide flexible and robust synchronization within distributed systems. Zookeeper keeps track of status of the Kafka cluster nodes and it also keeps track of Kafka topics, partitions etc.
+
+Zookeeper it self is allowing multiple clients to perform simultaneous reads and writes and acts as a shared configuration service within the system. The Zookeeper atomic broadcast (ZAB) protocol i s the brains of the whole system, making it possible for Zookeeper to act as an atomic broadcast system and issue orderly updates.
+
+ 
+
+How does Zookeeper work?
+The data within Zookeeper is divided across multiple collection of nodes and this is how it achieves its high availability and consistency. In case a node fails, Zookeeper can perform instant failover migration; e.g. if a leader node fails, a new one is selected in real-time by polling within an ensemble. A client connecting to the server can query a different node if the first one fails to respond.
+
+ 
+
+Difference Between ZooKeeper and etcd
+
+Disk Bandwidth - etcd’s log streams protobuf-encoded proposals to a sequence of preallocated files, syncing at page boundaries with a rolling CRC32 checksum on each entry. Zookeeper’s transaction log is similar, but is jute-encoded and checksums with Adler32.
+Network - etcd clients use gRPC with Protocol Buffer v3 over HTTP/2, Zookeeper clients use Jute over a custom streaming TCP protocol.
+Memory - Zookeeper load all key-value data in-memory, etcd only keeps a small resident, in-memory index, backing most of its data directly through a memory-mapped file in boltdb. 
+Latency Disctribution - etcd has both the lowest average latencies and tight, stable bounds at scale. Zookeeper struggles serving concurrent clients at its best throughput; once it triggers a snapshot, client requests begin failing. 
+ 
+
+References:
+
+https://www.dezyre.com/hadoop-tutorial/zookeeper-tutorial
+
+https://www.cloudkarafka.com/blog/2018-07-04-cloudkarafka_what_is_zookeeper.html
+
+https://coreos.com/blog/performance-of-etcd.html

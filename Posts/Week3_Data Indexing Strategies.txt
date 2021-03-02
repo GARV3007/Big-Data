@@ -1,0 +1,27 @@
+The significant increase and expansion in data volume puts challenges in front of analyst to perform efficient search in database. Instant information retrieval and decision making operation are becoming difficult to perform as the volume of data keeps increasing as the time passes by. Current RDBMS structure are build kept scale in mind and cannot handle processing and efficient searches on very large volume of unstructured data. To solve this issue numerous indexing strategies have been evolved. Based on the type of queries we can categories access methods or the type of indexing strategies to process specific diastase. These can be of Artificial Intelligence approach, and Non-Artificial Intelligence approach.
+
+ 
+
+Artificial Intelligence Approach: Due to their ability to detect unknown behavior in Big Data these are known as Artificial Intelligence approaches. By observing patterns they build relationship between data items and categories them accordingly. Compared to non-AI approaches they take more time in information retrieval. 
+Latent Semantic Indexing (LSI): It identifies patterns between items in an unstructured dataset in the text form. For relationship and pattern identification it uses Singular Value Decomposition (SVD). Mostly when working with inverted index we come across problem with keyword queries, LSI helps to overcome that. Scalability and performance are the main challenges while working with LSI. It demands very high computational memory for indexing.
+Hidden Markov Model(HMM): It is developed from Markov Model. In the model states are connected by transitions, where future states are dependent on the present state and independent of historical states. It also ues relationship and pattern recognition between the data. To predict future states, present state is used along with dependent characteristics. The data in motion is store and classified in advance before quick search is concluded. 
+Non-Artificial Intelligence Approach: In this approach index formation does not depend on relationship between the texts. Instead, based on searched items or queried indexed are formed. 
+The Tree-Based indexing strategies: Retrieval of data is performed in sorted order, considering branch relation. It uses nearest neighbor queries. 
+The B-Tree: Workers in complex manner like the Binary Tree search. Unlike binary tree which has two branches per node, B-tree have many branches. This is not always fast and can waste storage when searching Big Data. Other variation are B+tree, B*tree, KDB-tree, etc.
+The R-Tree: This indexing strategy used for range or spatial queries mostly applied in geospatial systems. It satisfies multi-dimentional queries, whereas B-tree does not. Example for this would be searching hotel with a given miles from certain location. It lags in finding exact answers as query results.
+The X-Tree: It is very similar to R-tree in the manner of search using range queries. It satifies queries of many dimentions makes it more complicated than R-tree.
+Hash Indexing: It gives an edge over other indexing by indentifying duplicates in a large datatset. It is used in password checking systems, DNA matching etc. It utilizes hash function to compuett hash key and hence hash indexing, which is more efficient than tree-based indexing in term of point query. 
+Custom Indexing Strategy and D. Inverted indexing strategies are other types of non-Artificial approaches.
+ 
+
+
+
+ 
+
+References:
+
+https://www.slac.stanford.edu/pubs/slacpubs/16250/slac-pub-16460.pdf
+
+Chatper 3. Storage and Retrieval - Shichao's Notes
+
+https://arxiv.org/pdf/1812.07527.pdf

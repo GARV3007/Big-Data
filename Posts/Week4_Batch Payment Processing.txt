@@ -1,0 +1,12 @@
+A group of payments to recipients from bank accounts is known as batch payment. It leads to faster payments and happier merchants. Bank wire transfer is the most common way to do the batch payment. There are many different ways through which payment can be sent, such as Bank transfer (ACH), Financial Institutions, credit or debit card payments. Using batch payment many authorized transactions are processed at the same time.
+  Mostly a merchant submits one batch per day, where all the transaction codes for all the transactions by its customers are sent to each of the customer's bank. Once approved, funds are sent to the merchant's bank as payment, known as a settlement. There are two ways credit card transactions are processed; real-time and batch. In real-time authorization and settlement happen simultaneously. In batch processing authorizations and settlements happen at different times. In batch, the merchant sends a group of authorization requests for settlement all at once, which usually happens at the end of the day. 
+  Out of both the options one can choose between real-time and batch processing depending upon the requirement. For the industry where the final amount of the transaction may not be known until the end, batch processing is the best option. Restaurants and gas-pumps are examples of such industry. The biggest advantage of batch processing is less processing costs. In real-time processing, we see a processing fee in each step of a transaction. It is a significant difference in processing time between the two. Batch processing is slower however, the impacting difference is minimal. 
+  The batch payment can be automatic or manual. In automatic type settlement happens at the same time every day and in manual the timing would be irregular. Either of the type the processing fee is less compared to real-time. However, the fee would increase with the number of batches. 
+
+ 
+
+References:
+
+https://tipalti.com/guide-to-batch-payment-processing/#:~:text=Batch%20payment%20processing%20is%20the,customers'%20respective%20banks%20for%20approval.
+
+https://www.investopedia.com/terms/b/batch-credit-card-processing.asp

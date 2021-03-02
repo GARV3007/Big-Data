@@ -1,0 +1,19 @@
+The key in facial recognition application is to get a deep neural network to produce a bunch of numbers that describe a face (known as face encodings). When you pass in two different images of the same person, the network should return similar outputs (i.e. closer numbers) for both images, whereas when you pass in images of two different people, the network should return very different outputs for the two images. This means that the neural network needs to be trained to automatically identify different features of faces and calculate numbers based on that. The output of the neural network can be thought of as an identifier for a particular person’s face — if you pass in different images of the same person, the output of the neural network will be very similar/close, whereas if you pass in images of a different person, the output will be very different. Here are the steps we need to take:
+
+Detect/identify faces in an image (using a face detection model) — for simplicity, this tutorial will only use images with one face/person in it, not more/less
+Predict face poses/landmarks (for the faces identified in step 1)
+Using data from step 2 and the actual image, calculate face encodings (numbers that describe the face)
+Compare the face encodings of known faces with those from test images to tell who is in the picture.
+ 
+
+    Images and videos have become ubiquitous on the internet, which has encouraged the development of algorithms that can analyze their semantic content for various applications, including search and summarization. Recently, Convolutional Neural Networks (CNNs) have been demonstrated as an effective class of models for understanding image content, giving state-of-the-art resultson image and  video recognition,  segmentation,  detection  and  retrieval. It  is suggested that CNN architectures are capable of learning powerful features from weakly-labeled data that far surpass feature-based methods in performance and that these benefits are surprisingly robust to details of the connectivity of the architectures in time. In  neural  networks,  Convolutional  neural  network  (ConvNets  or  CNNs)  is  one  of  the  main categories to do images recognition, images classifications. Objects detections, recognition faces etc., are some of the areas where CNNs are widely used.CNN image classifications takes an input image, process it and classify it under certain categories (Eg., Dog, Cat, Tiger, Lion). Computers sees an input image as array of pixels and it depends on the image resolution. Based on the image resolution, it will see h x w x d( h = Height, w = Width, d = Dimension ). Eg., An image of 6 x 6 x 3 array of matrix of RGB (3 refers to RGB values) and an image of 4 x4 x 1 array of matrix of grayscale image.
+
+ 
+
+References:
+
+https://towardsdatascience.com/facial-recognition-using-deep-learning-a74e9059a150
+
+MACHINE LEARNING (CONVOLUTIONAL NEURAL NETWORKS) FOR FACE MASK DETECTION IN IMAGE AND VIDEO - CORE Reader
+
+https://www.mitpressjournals.org/doi/pdf/10.1162/neco_a_00990
