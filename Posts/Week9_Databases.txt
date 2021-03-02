@@ -1,0 +1,35 @@
+Network databases: mapping more flexible connections with non-hierarchical links
+
+Network databases built on the foundation provided by hierarchical databases by adding additional flexibility. Instead of always having a single parent, as in hierarchical databases, network database entries can have more than one parent, which effectively allows them to model more complex relationships. When talking about network databases, it is important to realize that network is being used to refer to connections between different data entries, not connections between different computers or software. Network databases were a huge leap forward in terms of flexibility and the ability to map connections between information. However, they were still limited by the same access patterns and design mindset of hierarchical databases. For instance, to access data, you still needed to follow the network paths to the record in question. The parent-child relationship carried over from hierarchical databases also affected the way that items could connect to one another.
+
+ 
+
+Relational databases: working with tables as a standard solution to organize well-structured data
+
+Relational databases organize data using tables. Tables are structures that impose a schema on the records that they hold. Each column within a table has a name and a data type. Each row represents an individual record or data item within the table, which contains values for each of the columns. Relational databases get their name from mathematical relationships that use tuples (like the rows in a table) to represent ordered sets of data. While not inherent to the design of relational databases, a querying language called SQL, or structured query language, was created to access and manipulate data stored with that format. It can query and join data from multiple tables within a single statement. SQL can also filter, aggregate, summarize, and limit the data that it returns. So while SQL is not a part of the relational system, it is often a fundamental part of working with these databases. 
+
+ 
+
+NoSQL databases: modern alternatives for data that doesn't fit the relational paradigm
+
+NoSQL is a term for a varied collection of modern database types that offer approaches that differ from the standard relational pattern. The term NoSQL is somewhat of a misnomer since the databases within this category are more of a reaction against the relational archetype rather than the SQL querying language. NoSQL is said to stand for either "non-SQL" or "not only SQL" to sometimes clarify that they sometimes allow for SQL-like querying.
+
+ 
+
+Document databases: Storing all of an item's data in flexible, self-describing structures
+
+Document databases, also known as document-oriented databases or document stores, share the basic access and retrieval semantics of key-value stores. Document databases also use a key to uniquely identify data within the database. In fact, the line between advanced key-value stores and document databases can be fairly unclear. However, instead of storing arbitrary blobs of data, document databases store data in structured formats called documents, often using formats like JSON, BSON, or XML. Document databases are a good choice for rapid development because you can change the properties of the data you want to save at any point without altering existing structures or data. You only need to backfill records if you want to. Each document within the database stands on its own with its own system of organization. If you're still figuring out your data structure and your data is mainly composed discrete entries that don't include a lot of cross references, a document database might be a good place to start.
+
+ 
+
+ 
+
+References:
+
+https://www.keycdn.com/blog/popular-databases
+
+https://www.prisma.io/dataguide/intro/comparing-database-types
+
+https://www.xplenty.com/blog/data-warehouse-vs-database-what-are-the-key-differences/
+
+https://codebots.com/continuous-modernisation/types-of-databases-and-dbms-with-examples

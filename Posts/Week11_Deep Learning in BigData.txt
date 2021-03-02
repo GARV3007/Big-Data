@@ -1,0 +1,32 @@
+ Similar to machine learning, deep learning applications can further refine their processes when exposed to raw data, making them an invaluable asset in data analysis.
+
+
+Deep learning optimises semantic image and video tagging
+Sifting through raw data with certain applications facilitates the segmentation of complex data. This includes data presented in different formats, like images and videos. This process, known as semantic image and video tagging, is one of many uses in deep learning applications. Deep learning algorithms perform demanding tasks, like video data tagging. It is the process of finding key scenes in large streams of video data. Deep learning applications learn crucial features connected to data through independent analysis. Image and video data streams fast, so the ability to pick out key images and scenes in quick time is helpful.
+
+
+Semantic indexing
+Information retrieval is one of the key tasks of data collection and analysis. However, as big data expands, storing and analysing data becomes tough. It is not just volume that is an issue. Big data comes in different formats, like text, images, and video. Furthermore, data analysts have to analyse data in real-time. This is where semantic indexing becomes useful. It allows for quick identification of key data points, accelerating the rate of data analysis. Deep learning applications are integral to semantic indexing because of their unique layout.
+
+
+Utilising both linear and non-linear tasks
+Deep learning applications can execute complex tasks, like object recognition in images. Analysts use a process called “Discriminative tasks” to be more precise in data analysis. Discriminative tasks come in two methods: first, nonlinearity methods in data analysis. Second, by using non-linear methods to analyse data. Linear and non-linear methods improve data analysis because data analysts can easily pull off complex tasks.
+
+
+Uses in different industries
+Deep learning applications can optimise data analysis across different industries. In finance, deep learning can predict future price movements and better anticipate market movements. Deep learning applications will be a valuable asset to healthcare, as well. This is because data analysts can build complex applications, like monitoring parameters and non-invasive diagnostics, around the technology.
+
+Preparing for the future with deep learning applications
+
+
+Deep learning applications are going to play a huge role in data collection and analysis. The ability to filter data analysis through multiple layers of processing units can refine analysis processes, making it easier to glean useful insights at a much faster rate than before. Discovering useful insights, while working with complex data is much easier when deep learning is involved because AI technology can do much of the heavy lifting in data collection and analysis.
+
+ 
+
+References:
+
+https://montouche.medium.com/deeplearning-bigdata-applications-22ab73b3163f
+
+https://journalofbigdata.springeropen.com/articles/10.1186/s40537-014-0007-7
+
+https://seleritysas.com/blog/2021/01/04/deep-learning-applications-in-big-data-analytics-platforms/

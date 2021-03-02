@@ -1,0 +1,24 @@
+  Spark NLP is an open-source library, started just over three years ago, with the goal of providing state-of-the-art NLP to the open-source community, offering libraries and full APIs in Python, Java, and Scala. Evolved as a result of the growth of deep learning in NLP technologies and the optimization of Apache Spark, it enables getting things running one or two orders of magnitude faster on the same hardware for libraries based in Spark. It has great application on sentiment analysis, entity recognition, spell checking and correction, automated image processing, and layout detection. The analysis of sentiment, text classification and text similarity in unstructured text data sources like emails, social media or news feeds posts can provide businesses with key insights to understand what’s behind customer decisions and behavior. It’s a great tool that is already being leveraged for different types of business use cases. Retail companies use it for analyzing reviews of their product; financial companies use it for analyzing news feeds, understanding market trends and for trading; and airlines are using it for analyzing Facebook and Twitter feeds and posts, in order to understand customer complaints and requests. OCR can be leveraged for RPA initiatives that optimize the handling of loan requests, insurance claims, and invoices.
+
+ 
+
+  Google released a paper on MapReduce technology in December 2004. This became the genesis of the Hadoop Processing Model. So, MapReduce is a programming model that allows us to perform parallel and distributed processing on huge data sets. MapReduce framework allows us to perform parallel computations without bothering about the issues like reliability, fault tolerance etc. Therefore, MapReduce gives you the flexibility to write code logic without caring about the design issues of the system. MapReduce consists of two distinct tasks – Map and Reduce. As the name MapReduce suggests, the reducer phase takes place after the mapper phase has been completed. Natural Language Processing, and particularly the tasks of text annotation and key feature extraction, is an application area with high computational requirements; therefore, these tasks can significantly benefit of parallel architectures. A system can be build based on the Apache Hadoop ecosystem and its parallel programming paradigm, called MapReduce. 
+
+ 
+
+  TensorFlow is one of the most commonly used machine learning libraries in Python, specializing in the creation of deep neural networks. Deep neural networks excel at tasks like image recognition and recognizing patterns in speech. TensorFlow was designed by Google Brain, and its power lies in its ability to join together many different processing nodes. Natural language processing (NLP) supplies the majority of data available to deep learning applications, while TensorFlow is the most important deep learning framework currently available. Natural Language Processing with TensorFlow brings TensorFlow and NLP together to give you invaluable tools to work with the immense volume of unstructured data in today's data streams, and apply these tools to specific NLP tasks. The most natural fit for CNNs seem to be classifications tasks, such as Sentiment Analysis, Spam Detection or Topic Categorization.
+
+ 
+
+ 
+
+References:
+
+https://www.gigaspaces.com/blog/natural-language-processing-examples/
+
+https://www.sciencedirect.com/science/article/pii/S1045926X15000749
+
+Natural Language Processing with TensorFlow | Guide books
+
+http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
+
